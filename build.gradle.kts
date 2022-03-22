@@ -46,7 +46,7 @@ tasks.processResources {
     from(sourceSets["main"].resources.srcDirs) {
         include("**/*.yml")
         duplicatesStrategy = DuplicatesStrategy.INCLUDE
-        filter<ReplaceTokens>("tokens" to mapOf("version" to "0.1.0"))
+        filter<ReplaceTokens>("tokens" to mapOf("version" to "1.0.0"))
         filter<ReplaceTokens>("tokens" to mapOf("name" to project.name))
     }
 }

@@ -1,4 +1,4 @@
 name: OneTa
-version: '${version}'
+version: '1.0.0'
 main: org.oneserver.oneta.OneTa
 description: 必要そうなものを詰め込んだBungeeCord用のプラグイン
