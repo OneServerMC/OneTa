@@ -18,6 +18,9 @@ repositories {
 
     // Paper
     maven { url = uri("https://papermc.io/repo/repository/maven-public/") }
+
+    // JitPack
+    maven { url = uri("https://jitpack.io") }
 }
 
 java {
@@ -50,5 +53,6 @@ tasks.processResources {
 
 dependencies {
     implementation(kotlin("stdlib"))
+    implementation("com.github.hazae41:mc-kutils:master-SNAPSHOT")
     compileOnly("io.github.waterfallmc:waterfall-api:1.18-R0.1-SNAPSHOT")
 }
